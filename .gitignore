@@ -1,0 +1,32 @@
+# THE ENCRYPTION KEY — never commit this!
+encryption_key.key
+*.key
+
+# Encrypted test files
+*.encrypted
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
